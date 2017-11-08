@@ -1,0 +1,13 @@
+.headerRow {
+  background-color: black;
+}
+
+.headerList li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  padding: 12px 12px;
+  margin-top: 10px;
+  width: 25%;
+  text-align: center;
+}

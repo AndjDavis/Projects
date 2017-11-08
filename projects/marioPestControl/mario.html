@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pest.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="mainHeader container-fluid">
+        <div class="topBanner row">
+            <h1 class="mainTitle upHigh col-md-12">Mario's Pest Control</h1>
+            <h3 class="mainSubTitle upHigh col-md-12">It's-a-me, Mario!</h3>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row rowOne infoRows">
+            <h2 class="subHeading col-md-10 col-md-offset-1">-LET'S-A-GO!-</h2>
+        </div>
+
+        <div class="imageRow row">
+            <img class="firstRowImg rowImg questionBox col-md-2" src="https://res.cloudinary.com/teepublic/image/private/s--LZYTUwNc--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1458943301/production/designs/458361_1.jpg" alt="questionBox">
+            <img class="firstRowImg rowImg questionBox col-md-2" src="https://res.cloudinary.com/teepublic/image/private/s--LZYTUwNc--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1458943301/production/designs/458361_1.jpg" alt="questionBox">
+            <img class="firstRowImg rowImg mario col-md-2" src="https://pbs.twimg.com/media/CM9ZBX8UEAAKSxN.jpg" alt="mario">
+            <img class="firstRowImg rowImg questionBox col-md-2" src="https://res.cloudinary.com/teepublic/image/private/s--LZYTUwNc--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1458943301/production/designs/458361_1.jpg" alt="questionBox">
+            <img class="firstRowImg rowImg questionBox col-md-2" src="https://res.cloudinary.com/teepublic/image/private/s--LZYTUwNc--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1458943301/production/designs/458361_1.jpg" alt="questionBox">
+        </div>
+
+        <div class="row rowThree infoRows">
+            <h2 class="subHeading col-md-10 col-md-offset-1">-JUMPING PRICES-</h2>
+        </div>
+
+        <div class="row rowFour villains">
+            <img class="villain goomba col-md-2 col-md-offset-1" src="https://t6.rbxcdn.com/e6e35be5d93659a88aa73da02e437d7c" alt="Goomba">
+            <img class="villain bobomb col-md-2 col-md-offset-2" src="https://t0.rbxcdn.com/31a000c1bb682c19962b874c53dbdef9" alt="bobomb">
+            <img class="villain cheep  col-md-2 col-md-offset-2" src="http://rs290.pbsrc.com/albums/ll247/IkkidePhoenix/DS%20Party/Super%20Mario%20Bros%203/fish.gif~c200" alt="cheepCheep">
+        </div>
+
+        <div class="row fowFive villainNames">
+            <h4 class="villainInfo col-md-2 col-md-offset-1">Goombas: 5 coins</h4>
+            <h4 class="villainInfo col-md-2 col-md-offset-2">Bob-ombs: 8 coins</h4>
+            <h4 class="villainInfo col-md-2 col-md-offset-2 cheepCheep">CheepCheeps: 11 coins</h4>
+        </div>
+
+        <div class="row rowSix infoRows">
+            <h2 class="subHeading col-md-10 col-md-offset-1">-HOW A-MANY I JUMPED ON-</h2>
+        </div>
+
+        <div class="row rowSeven">
+            <button id="buttOne" class="col-md-2 col-md-offset-1 buttOn villain btn-default">Jumped Goombas</button>
+            <button id="buttTwo" class="col-md-2 col-md-offset-2 buttOn villain btn-default">Jumped Bob'ombs</button>
+            <button id="buttThree" class="col-md-2 col-md-offset-2 buttOn villain btn-default">Jumped CheepCheeps</button>
+        </div>
+
+        <div class="row rowEight">
+            <input type="text" id="incomingTextOne" class="inputBox species col-md-2 col-md-offset-1 form-control input-lg">
+            <input type="text" id="incomingTextTwo" class="inputBox species col-md-2 col-md-offset-2 form-control input-lg">
+            <input type="text" id="incomingTextThree" class="inputBox species col-md-2 col-md-offset-2 form-control input-lg">
+        </div>
+
+        <div class="row rowNine infoRows">
+            <h2 class="subHeading col-md-10 col-md-offset-1">-MARIO JUMPING SUMMARY-</h2>
+        </div>
+
+        <div class="row rowTen">
+            <div id="outGoingOne" class="outputBox speciesTotal col-md-2 col-md-offset-1"></div>
+            <div id="outGoingTwo" class="outputBox speciesTotal col-md-2 col-md-offset-2"></div>
+            <div id="outGoingThree" class="outputBox speciesTotal col-md-2 col-md-offset-2"></div>
+        </div>
+
+        <div class="row rowEleven infoRows">
+            <h2 class="subHeading col-md-10 col-md-offset-1">-HOW MUCH YOU OWE-A MARIO-</h2>
+        </div>
+
+        <div class="row rowTwelve">
+            <button id="bottomButton" class="col-md-5 col-md-offset-1 totalButton btn-success bottomBoxes">Total Bill</button>
+            <div id="totalSum" class="col-md-5 col-md-offset-1 totalSums bottomBoxes"></div>
+        </div>
+    </div>
+
+    <div class="bottomFluid ">
+        <div class="row bottomBanner rowThirteen">
+            <footer class="foots col-md-10 col-md-offset-1">- Mario@blueyoshi.com - www.mariopestcontrol.com - 1981 Yoshi Way Mushroom Kingdom - </footer>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="control.js"></script>
+
+</body>
+
+</html>
