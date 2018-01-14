@@ -10,7 +10,7 @@ Photo-Sites is a full stack application using React/Redux on the front end and N
 
 The idea for Photo-Sites was to create an application where photographers can share their pictures and the corresponding shooting locations with potential clients and other photographers.  Photo-Sites integrates Google Maps and a photographer can set markers onto that map that pull up sample photos when the marker is clicked.  Markers can be added and deleted by the photographer.  Clients can also click on a gallery option to see the full portfolio of the photographer.
 
-  ### Colosol RPG:
+  ### Colossal RPG:
 
 ColosolRPG was the first major project I had as a student.  It is a simple rpg game that you can play in your command line.  It uses the node package _readline-sync_ to interact with the player.  In this game, your goal is to escape the compound while fight/fleeing 3 different types of zombies.  If you find the bunker, you can upgrade your weapons.  
 
@@ -18,7 +18,7 @@ Creating this game deepened my understanding of functions, more specifically, un
 
   ### Mario Pest Control:
 
-Mario Pest Control was an early project where the goal was to create a simple website that can run a couple calculations.  Mario works as pest control, and with the website, he can enter the amounts and types of pests he exterminated and recieve a total amount to charge.  
+Mario Pest Control was an early project where the goal was to create a simple website that can run a couple calculations.  Mario works as pest control, and with the website, he can enter the amounts and types of pests he exterminated and receive a total amount to charge.  
 
 The functionality is limited, but it really helped me grasp the interaction between html, css, and javascript.  The front-end uses bootstrap for the layout and I was pretty happy with how it ended up looking.
 
@@ -26,6 +26,6 @@ The functionality is limited, but it really helped me grasp the interaction betw
 
     https://press-your-luck.surge.sh
 
-Not featured in this repository is a group project I worked called _Press Your Luck_.  You can find that in its own repo by the same name.  
+Not featured in this repository is a group project I worked called _Press Your Luck_.  If you want to give it a look, you can find it by looking at the organizations I belong to.  
 
 
