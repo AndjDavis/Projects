@@ -12,7 +12,7 @@ The idea for Photo-Sites was to create an application where photographers can sh
 
   ### Colosol RPG:
 
-ColosolRPG was the first major project I had as a student.  It is a simple rpg game that you can play in your command line.  It uses the node package * readline-sync * to interact with the player.  In this game, your goal is to escape the compound while fight/fleeing 3 different types of zombies.  If you find the bunker, you can upgrade your weapons.  
+ColosolRPG was the first major project I had as a student.  It is a simple rpg game that you can play in your command line.  It uses the node package _readline-sync_ to interact with the player.  In this game, your goal is to escape the compound while fight/fleeing 3 different types of zombies.  If you find the bunker, you can upgrade your weapons.  
 
 Creating this game deepened my understanding of functions, more specifically, understanding global scope vs. local scope. 
 
@@ -26,6 +26,6 @@ The functionality is limited, but it really helped me grasp the interaction betw
 
     https://press-your-luck.surge.sh
 
-Not featured in this repository is a group project I worked called * Press Your Luck *.  You can find that in its own repo by the same name.  
+Not featured in this repository is a group project I worked called _Press Your Luck_.  You can find that in its own repo by the same name.  
 
 
